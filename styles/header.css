@@ -1,0 +1,111 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--branco);
+    padding: 1.5em 0;
+    font-family: var(--font-principal);
+    font-weight: 600;
+    color: var(--cinza);
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 18px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.cabecalho__titulo {
+    font-size: 1.7em;
+    padding-left: 2rem;
+}
+
+.cabecalho__img {
+    height: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.cabecalho__menu {
+    display: none;
+}
+
+.lista-menu {
+    display: none;
+    flex-direction: column;
+    margin-top: 2.75vh;
+    right: 0;
+    position: absolute;
+    width: 50vw;
+    height: 40vh;
+    background-color: var(--branco);
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 0 0 10px 10px;
+}
+
+.lista-menu__link {
+    font-size: 1rem;
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.lista-menu__link:active {
+    color: var(--cinza-claro);
+}
+
+.cabecalho__menu:checked+.menu .lista-menu {
+    display: flex;
+
+}
+
+.cabecalho__titulo__sobre-nome {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__img {
+        display: none;
+    }
+
+    .cabecalho {
+        padding: 0;
+    }
+
+    .cabecalho__titulo {
+        padding: 1rem 0 1rem 2em;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .cabecalho__titulo__sobre-nome {
+        padding-left: 0.3em;
+        display: block;
+    }
+
+    .lista-menu {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        height: 0vh;
+        width: auto;
+        padding-right: 1.5rem;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .menu-link__itens {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {    
+    .cabecalho {
+        padding: 1em 0;
+    }
+
+    .cabecalho__titulo {
+        font-size: 2.5em;
+    }
+
+    .lista-menu__link {
+        font-size: 1.4rem;
+    }
+}

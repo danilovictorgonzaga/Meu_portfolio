@@ -1,0 +1,137 @@
+.contato__container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+}
+
+.contato__subtitulo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-bottom: 2em;
+}
+
+.contato__paragrafo {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.contato__container-botoes {
+    padding-top: 5em;
+
+}
+
+.contato__container-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.imagem__contato {
+    width: 2em;
+}
+
+.contato__botao {
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 3px solid var(--cinza-claro);
+    border-radius: 0.5em;
+    text-decoration: none;
+    display: block;
+    color: var(--black);
+}
+
+.botao__primario {
+    padding: 0.5em 1.5em;
+}
+
+.botao__secundario {
+    padding: 0.5em 3.2em;
+    
+}
+
+.contato__container-escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contato__container-botao__secundario {
+    margin-top: 2em;
+}
+
+.contato__botao:active {
+    background-color: var(--cinza-claro);
+    color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {  
+    .contato__container {
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em 0 6em 0;
+    }
+
+    .contato__subtitulo {
+        font-size: 1.25rem;
+    }
+
+    .contato__container-botoes {
+        padding-top: 1em;
+        padding-left: 26vh;
+    }
+
+    .contato__paragrafo {
+        font-size: 1.1rem;
+    }
+
+    .contato__container-escrita {
+        padding-right: 26vh;
+        border-right: 1px solid var(--cinza-claro);
+    }
+
+    .imagem__contato {
+        width: 2.7em;
+    }
+
+    .contato__botao {
+        font-size: 0.9rem;
+    }
+
+    .botao__primario {
+        padding: 0.7em 2.2em;
+    }
+    
+    .botao__secundario {
+        padding: 0.7em 3.7em;
+        
+    }
+
+    .contato__botao:hover {
+        background-color: var(--cinza-claro);
+        color: var(--branco);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato__subtitulo {
+        font-size: 1.7rem;
+    }
+
+    .contato__paragrafo {
+        font-size: 1.5rem;
+    }
+    
+    .contato__botao {
+        font-size: 1.3rem;
+    }
+
+    .contato__container-escrita {
+        padding-right: 28vh;
+    }
+
+    .contato__container-botoes {
+        padding-left: 28vh;
+    }
+}

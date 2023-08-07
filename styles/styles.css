@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+@import url("header.css");
+@import url("home.css");
+@import url("sobreMim.css");
+@import url("projetos.css");
+@import url("certificados.css");
+@import url("contato.css");
+@import url("rodape.css");
+
+:root {
+    --branco: #ffffff;
+    --branco-opaco: #d5d0e9;
+    --cinza: #949494;
+    --cinza-claro: #869dbc;
+    --roxo: #5c38ac;
+    --roxo-claro: #9983cb;
+    --black: #000000;
+
+    
+    --gradient: linear-gradient(
+        #3a6aaa,
+        #7a86c5,
+        #9a83cb 
+    );
+
+    --gradient-claro: linear-gradient(
+        #ccd9eb,
+        #d1d8ec,
+        #ded6ee 
+    );
+
+    --font-principal: "Montserrat"
+
+}
+
+body {
+    font-family: var(--font-principal);
+}
+

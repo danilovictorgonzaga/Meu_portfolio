@@ -1,0 +1,68 @@
+[
+    {
+        "imagem":"img/certificados/2htmlECssAmbientesDeDesenvolvimento,EstruturaDeArquivoETags.PNG",
+        "alt":"html e css: Ambientes de desenvolvimento, estrutura de arquivo e tags",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/3htmlECssCabeçalho,FooterEVariaveisCss.PNG",
+        "alt":"html e css: Cabeçalho, footer e variaveis css",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/4htmlECssClasses,PosicionamentoEFlexbox.PNG",
+        "alt":"htm e css: Classes, posicionamento e flexbox",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/5htmlECssPraticandoHtmlCss.PNG",
+        "alt":"html e css: Praticando Html/Css",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/6htmlECssResponsividadeComMobileFirst.PNG",
+        "alt":"html e css: Responsividade com mobile first",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/7htmlECssTrabalhandoComResponsividadeEpublicacaoDeProjetos.PNG",
+        "alt":"html e css: Trabalhando com responsividade e publicacao de projetos",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/8javascriptConsumindoETratandoDadosDeUmaApi.PNG",
+        "alt":"javascript: Consumindo e tratando de dados de uma Api",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/9javascriptManipulandoODom.PNG",
+        "alt":"javascript: Manipulando o Dom",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/10javascriptMetodosDeArray.PNG",
+        "alt":"javascript: Metodos de array",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/11javascriptNaWebArmazenandoDadosNoNavegador.PNG",
+        "alt":"javascript: Na web armazenando dados no navegador",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/12javascriptParaWebCriePaginasDinamicas.PNG",
+        "alt":"javascript: Para web crie paginas dinamicas",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/13javascriptValidacoesEReconhecimentoDeVoz.PNG",
+        "alt":"javascript: Validacoes e reconhecimento de voz",
+        "categoria":"front-end"
+    },
+    {
+        "imagem":"img/certificados/1gitEGithubControleECompartilheSeuCodigo.PNG",
+        "alt":"git e github: Controle e compartilhe seu codigo",
+        "categoria":"github"
+    }
+
+]

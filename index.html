@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icones/pessoa.ico" type="image/x-icon">
+    <title>Danilo Gonzaga</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h2 class="cabecalho__titulo"><b class="cabecalho__titulo__sobre-nome">Victor Gonzaga</b>Danilo</h2>
+        <input type="checkbox" class="cabecalho__menu" id="menu">
+        <div class="menu">
+            <label for="menu"><img src="img/icones/menu.png" alt="Icone de menu" class="cabecalho__img"
+                    id="icone-menu"></label>
+            <ul class="lista-menu" id="lista-menu">
+                <li class="menu-link__itens">
+                    <a href="#home" class="lista-menu__link">Home</a>
+                </li>
+                <li class="menu-link__itens">
+                    <a href="#sobre-mim" class="lista-menu__link">Sobre Mim</a>
+                </li>
+                <li class="menu-link__itens">
+                    <a href="#projetos" class="lista-menu__link">Projetos</a>
+                </li>
+                <li class="menu-link__itens">
+                    <a href="#certificados" class="lista-menu__link">Certificados</a>
+                </li>
+                <li class="menu-link__itens">
+                    <a href="#contato" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="principal">
+        <section id="home" class="home">
+            <p class="home__paragrafos home__paragrafo">Oii, eu sou o Danilo</p>
+            <h1 class="home__titulo"><b class="home__titulo-menor">Frontend</b>
+                <span class="icones__tela-grande">
+                    <a target="_blank" href="https://github.com/danilovictorgonzaga"><img src="img/icones/github.png"
+                            alt="Meu github" class="home__imagem"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/danilo-victor-gonzaga-05660b17a/"><img
+                            src="img/icones/linkdln.png" alt="Meu linkdIn" class="home__imagem"></a>
+                    <a target="_blank" href="img/Currículo.pdf"><img src="img/icones/curriculo.png" alt="Meu curriculo"
+                            class="home__imagem"></a>
+                </span>
+                <br> developer
+            </h1>
+            <p class="home__paragrafos home__paragrafo-baixo">tenho 22 anos, sou desenvolvedor frontend</p>
+            <span class="icones__tela-mobile">
+                <a target="_blank" href="https://github.com/danilovictorgonzaga"><img src="img/icones/github.png"
+                        alt="Meu github" class="home__imagem"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/danilo-victor-gonzaga-05660b17a/"><img
+                        src="img/icones/linkdln.png" alt="Meu linkdIn" class="home__imagem"></a>
+                <a target="_blank" href="img/Currículo.pdf"><img src="img/icones/curriculo.png" alt="Meu curriculo"
+                        class="home__imagem"></a>
+            </span>
+        </section>
+
+        <section id="sobre-mim" class="sobre-mim">
+            <h2 class="sub__titulo">Sobre mim</h2>
+            <div class="sobre-mim__container">
+                <img src="img/foto.png" alt="Foto do criador" class="sobre-mim__imagem">
+                <div class="sobre-mim__container__paragrafos">
+                    <p class="sobre-mim__paragrafo sobre-mim__paragrafo-negrito">Nasci em Belo Horizonte - MG, tenho só
+                        22 anos e muita paixão por tecnologia & matemática. Estou cursando Sistemas de informação.</p>
+                    <p class="sobre-mim__paragrafo">Atualmente busco por experiência, conhecimento, vivência e uma maior
+                        exposição a desafios na área de desenvolvimento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2 class="sub__titulo">Projetos</h2>
+            <div class="container-imagem__projeto">
+                <a target="_blank" href="https://danilovictorgonzaga.github.io/Alura-Books/"><img
+                        class="imagem__projeto" src="img/projetos/aluraBook-site.png"
+                        alt="Projeto da tela da aluraBook"></a>
+                <a target="_blank" href="https://alura-plus-three-peach.vercel.app/"><img class="imagem__projeto"
+                        src="img/projetos/aluraPlus-site.png" alt="Projeto da tela do aluraPlus"></a>
+                <a target="_blank" href="https://danilovictorgonzaga.github.io/Mochila_viagem/"><img
+                        class="imagem__projeto" src="img/projetos/mochila-site.PNG"
+                        alt="Projeto de uma mochila de viagem"></a>
+                <a target="_blank" href="https://alura-robotron-2000-five.vercel.app/"><img class="imagem__projeto"
+                        src="img/projetos/robo-site.png" alt="Projeto de um robo de combate"></a>
+            </div>
+        </section>
+
+        <section id="certificados" class="certificados">
+            <h2 class="sub__titulo">Certificados</h2>
+            <nav class="wrap">
+                <ul class="nav">
+                    <li><button class="btn btn-todos ligado" href="#" id="btnFiltrarTodos" value="todos">Todos</button>
+                    </li>
+                    <li><button class="btn btn-front " href="#" id="btnFiltrarFront"
+                            value="front-end">Front-end</button></li>
+                    <li><button class="btn btn-github " href="#" id="btnFiltrarGithub" value="github">Github</button>
+                    </li>
+                    <li><button class="btn btn-outros " href="#" id="btnFiltrarOutros" value="outros">Outros</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="certificados__container" id="certificados__container">
+
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2 class="sub__titulo">contato</h2>
+            <div class="contato__container">
+                <div class="contato__container-escrita">
+                    <h3 class="contato__subtitulo">Entre em contato</h3>
+                    <p class="contato__paragrafo">30622-020, Belo Horizonte</p>
+                    <p class="contato__paragrafo">Minas Gerais, Brasil</p>
+                    <p class="contato__paragrafo">+55 31 97352-8224</p>
+                    <p class="contato__paragrafo">danilo.gonzaga2001@gmail.com</p>
+                </div>
+                <div class="contato__container-botoes">
+                    <div class="contato__container-botao">
+                        <img src="img/icones/Whatsapp.png" alt="Icone do Whatsapp" class="imagem__contato">
+                        <a target="_blank" href="https://wa.me/message/XNIAVEZLF5J7M1"
+                            class="contato__botao botao__primario">Chamar no Whatsapp</a>
+                    </div>
+                    <div class="contato__container-botao contato__container-botao__secundario">
+                        <img src="img/icones/download.png" alt="Icone de download" class="imagem__contato">
+                        <a target="_blank" href="img/Currículo.pdf" class="contato__botao botao__secundario">Baixar
+                            curriculo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h2 class="rodape__subtitulo">Me siga nas redes sociais</h2>
+        <div class="rodape__botoes">
+            <a target="_blank" href="https://github.com/danilovictorgonzaga"><img class="rodape__icones"
+                    src="img/icones/github.png" alt="Meu Github"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/danilo-victor-gonzaga-05660b17a/"><img
+                    class="rodape__icones" src="img/icones/linkdln.png" alt="Meu LinkdIn"></a>
+            <a target="_blank" href="img/Currículo.pdf"><img class="rodape__icones" src="img/icones/curriculo.png"
+                    alt="Meu Curriculo"></a>
+        </div>
+        <h3 class="rodape__sub-subtitulo">© Danilo V. Gonzaga all rights reserved.</h3>
+        <p class="rodape__paragrafo">Design by Danilo V. Gonzaga</p>
+    </footer>
+    <script src="app/main.js"></script>
+    <script src="app/metodoForEach.js"></script>
+    <script src="app/metodoFilter.js"></script>
+    <script src="app/header.js"></script>
+</body>
+
+
+</html>

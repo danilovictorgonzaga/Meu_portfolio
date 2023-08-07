@@ -1,0 +1,39 @@
+.projetos {
+    text-align: center;
+    background-image: var(--gradient-claro);
+}
+
+.container-imagem__projeto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagem__projeto {
+    height: 12em;
+    padding: 2em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem__projeto {
+        height: 19em;
+        padding-bottom: 4em;
+    }
+
+    .container-imagem__projeto {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 6.5em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .imagem__projeto {
+        height: 25em;
+    }
+
+    .container-imagem__projeto {
+        gap: 20vh;
+    }
+}
