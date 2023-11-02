@@ -1,5 +1,20 @@
 [
     {
+        "imagem":"img/certificados/14JavaCriandoASuaPrimeiraAplicacao.PNG",
+        "alt":"Java_ criando a sua primeira aplicação",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/15JavaAplicandoAOrientaçaoAObjetos.PNG",
+        "alt":"Java_ aplicando a Orientação a Objetos",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/16JavaOOEntendendoAOrientaçãoAObjetos.PNG",
+        "alt":"Java OO_ entendendo a Orientação a Objetos",
+        "categoria":"back-end"
+    },
+    {
         "imagem":"img/certificados/2htmlECssAmbientesDeDesenvolvimento,EstruturaDeArquivoETags.PNG",
         "alt":"html e css: Ambientes de desenvolvimento, estrutura de arquivo e tags",
         "categoria":"front-end"
