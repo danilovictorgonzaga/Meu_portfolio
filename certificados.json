@@ -15,6 +15,11 @@
         "categoria":"back-end"
     },
     {
+        "imagem":"img/certificados/17JavaExceçõesAprendaACriarLançarEControlarExceções.PNG",
+        "alt":"JAVA EXCEÇÕES: APRENDA A CRIAR,LANÇAR E CONTROLAR EXCEÇÕES",
+        "categoria":"back-end"
+    },
+    {
         "imagem":"img/certificados/2htmlECssAmbientesDeDesenvolvimento,EstruturaDeArquivoETags.PNG",
         "alt":"html e css: Ambientes de desenvolvimento, estrutura de arquivo e tags",
         "categoria":"front-end"
