@@ -20,6 +20,41 @@
         "categoria":"back-end"
     },
     {
+        "imagem":"img/certificados/18JavaEJavaLangProgrameComAClasseObjectEString.PNG",
+        "alt":"Java e java.lang_ programe com a classe Object e String",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/19JavaTrabalhandoComListasEColeçõesDeDados.PNG",
+        "alt":"Java_ trabalhando com listas e coleções de dados",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/20JavaCollectionsDominandoListasSetsEMapas.PNG",
+        "alt":"Java Collections Dominando Listas Sets E Mapas",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/21JavaConsumindoAPIGravandoArquivosELidandoComErros.PNG",
+        "alt":"Java_ consumindo API, gravando arquivos e lidando com erros",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/22ModelagemDeBancoDeDadosEntidadesRelacionamentosEAtributos.PNG",
+        "alt":"Modelagem de banco de dados_ entidades, relacionamentos e atributos",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/23ModelagemDeBancoDeDadosRelacionalModelagemLógicaEFísica.PNG",
+        "alt":"Modelagem de banco de dados relacional_ modelagem lógica e física",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/24ModelagemDeBancoDeDadosRelacionalAlgebraRelacional.PNG",
+        "alt":"Modelagem de banco de dados relacional_ álgebra relacional",
+        "categoria":"back-end"
+    },
+    {
         "imagem":"img/certificados/2htmlECssAmbientesDeDesenvolvimento,EstruturaDeArquivoETags.PNG",
         "alt":"html e css: Ambientes de desenvolvimento, estrutura de arquivo e tags",
         "categoria":"front-end"
