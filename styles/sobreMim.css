@@ -25,7 +25,7 @@
     justify-content: space-around;
     background-image: var(--gradient-claro);
     margin: auto auto 3em auto;
-    padding: 1em 1em;
+    padding: 2em 1em;
     border-radius: 2em;
     border: 3px solid var(--roxo);
 }
@@ -38,13 +38,25 @@
 
 .sobre-mim__paragrafo {
     font-weight: 400;
+
+}
+
+.sobre-mim__paragrafo-normal {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding-left: 1em;
+    text-align: left;
     font-size: 0.7em;
-    text-align: center;
 }
 
 .sobre-mim__paragrafo-negrito {
-    font-weight: 600;
-    padding-bottom: 2em;
+    font-weight: 800;
+    font-size: 1rem;
+    padding-bottom: 1em;
+    opacity: 0.5;
+    
 }
 
 @media screen and (min-width: 1024px) { 
@@ -75,19 +87,29 @@
         width: 55%;
     }
 
-    .sobre-mim__paragrafo {
+    .sobre-mim__paragrafo-negrito {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .sobre-mim__paragrafo-normal {
         font-size: 1.1rem;
         text-align: left;
     }
+
 }
 
 @media screen and (min-width: 1728px) {
     .sub__titulo {
         font-size: 3.3em;
     }
-    
-    .sobre-mim__paragrafo {
-        font-size: 1.6em;
+
+    .sobre-mim__paragrafo-negrito {
+        font-size: 2rem;
+    }
+
+    .sobre-mim__paragrafo-normal {
+        font-size: 1.5rem;
     }
 
     .sobre-mim__imagem {
