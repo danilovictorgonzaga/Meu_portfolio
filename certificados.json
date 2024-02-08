@@ -55,6 +55,16 @@
         "categoria":"back-end"
     },
     {
+        "imagem":"img/certificados/25ModelagemDeBancoDeDadosRelacionalNormalização.PNG",
+        "alt":"Modelagem de banco de dados relacional_ normalização",
+        "categoria":"back-end"
+    },
+    {
+        "imagem":"img/certificados/26ModelagemDeBancoDeDadosRelacionalEntendendoSQL.PNG",
+        "alt":"Modelagem de banco de dados relacional_ entendendo SQL",
+        "categoria":"back-end"
+    },
+    {
         "imagem":"img/certificados/2htmlECssAmbientesDeDesenvolvimento,EstruturaDeArquivoETags.PNG",
         "alt":"html e css: Ambientes de desenvolvimento, estrutura de arquivo e tags",
         "categoria":"front-end"
