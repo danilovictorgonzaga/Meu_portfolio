@@ -34,7 +34,17 @@
 
 }
 
-body {
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: var(--roxo-claro);
+}
+
+*{
+    scroll-behavior: smooth;
     font-family: var(--font-principal);
 }
 
